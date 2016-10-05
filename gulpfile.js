@@ -15,7 +15,7 @@ var request = require('supertest');
 var path = {
     html: 'client/index.html',
     server: ['server/*.js', 'server/**/*.js'],
-    test: ['test/test-*.js'],
+    test: ['test/*.spec.js'],
     client: 'client/src/app.js',
     min_client: 'client.min.js',
     out_client: 'client.js',
